@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:id="@+id/group1" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/androidId_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/androidId_getTicket"
+            android:title="GetTicket"
+            android:icon="@drawable/ticket" />
+
+        <item
+            android:id="@+id/androidId_downTicket"
+            android:title="DL Ticket"
+            android:icon="@drawable/dticket" />
+
+        <item
+            android:id="@+id/androidId_conference"
+            android:title="Conference"
+            android:icon="@drawable/conference" />
+
+        <item
+            android:id="@+id/androidId_videoGalery"
+            android:title="Video"
+            android:icon="@drawable/video" />
+
+        <item
+            android:id="@+id/androidId_download"
+            android:title="Download"
+            android:icon="@drawable/ic_download" />
+
+
+
+
+        </group>
+
+
+</menu>
